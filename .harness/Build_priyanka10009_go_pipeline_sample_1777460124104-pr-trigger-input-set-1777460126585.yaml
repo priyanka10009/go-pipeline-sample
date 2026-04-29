@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_priyanka10009_go_pipeline_sample_1777460124104-pr-trigger-input-set
+  identifier: Build_priyanka10009_go_pipeline_sample_1777460124104prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Lloyds_Project_POC
+  pipeline:
+    identifier: Build_priyanka10009_go_pipeline_sample_1777460124104
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
